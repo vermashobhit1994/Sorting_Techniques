@@ -31,6 +31,14 @@ int main()
    printf("The elements of array using selection sort are\n");
    display_arr(arr_sel,n);
 
+   //create a temporary array for  bubble sort
+   int arr_bubble[n];
+   copy_array(arr,arr_bubble,n) ;
+   bubble_sort_arr(arr_bubble,n);
+   printf("The elements of array using bubble sort are\n");
+   display_arr(arr_bubble,n);
+
+
    
    
 
