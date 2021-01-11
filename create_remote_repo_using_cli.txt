@@ -1,0 +1,26 @@
+Please follow the below Steps to create a remote repository using the command line i.e terminal
+
+Step 1: Install the gh tool that is used for command line interface. For installing follow the below commands:
+
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key C99B11DEB97541F0
+sudo apt-add-repository https://cli.github.com/packages
+sudo apt update
+sudo apt install gh
+
+Step 2: Authenticate your github account. Type the below command .
+gh auth login
+
+It will choose many options like by which means you want to authenticate. Choose Authenticate via webserver.
+Then it open github.com in  your browser and then just enter the your login credentials and after that a code is asked.
+See the below line.
+
+First copy your one-time code: BAA4-91E1 
+
+Just copy the above code and then you will be authenticated.
+
+Step3: Create a remote repository. Use the following command 
+gh repo create
+
+Provide your repository name ,description, visibility and then your path then it will create a repository at remote 
+
+
