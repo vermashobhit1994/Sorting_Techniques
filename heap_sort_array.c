@@ -30,7 +30,7 @@ void heapsort_arr(int *arr,int n)
 //here array is treated as heap
 //create heap by going from last root node to top root node
 //adjust elements to create a max heap
-void create_heap(int *arr,int n)
+static void create_heap(int *arr,int n)
 {
     
     for(int root_index = n/2-1;root_index>= 0;root_index--)
@@ -39,7 +39,7 @@ void create_heap(int *arr,int n)
     
 }
 
-void adjust_elements(int *arr,int root_index,int n)
+static void adjust_elements(int *arr,int root_index,int n)
 {
     //root_num is last root value
     int root_num = arr[root_index];
