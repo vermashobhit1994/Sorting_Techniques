@@ -7,4 +7,5 @@ void bubble_sort_arr(int *arr,int n);
 void insertion_sort_arr(int *arr ,int n);
 void mergesort_arr(int *arr,int n);
 void quicksort_arr(int *arr ,int n);
+void heapsort_arr(int *arr,int n);
 

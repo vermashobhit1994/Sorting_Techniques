@@ -57,6 +57,12 @@ int main()
    printf("The elements of array using quick sort are\n");
    display_arr(arr_quick,n);
 
+   int arr_heap[] = {12,54,-8,20,456,7102,0,-52,-4785,30};
+   copy_array(arr,arr_heap,n);
+   heapsort_arr(arr_heap,n);
+   printf("The elements of array using heap sort are\n");
+   display_arr(arr_heap,n);
+
 
    
    
