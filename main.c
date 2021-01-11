@@ -21,10 +21,12 @@ int main()
        printf("Enter %d element\n",i+1);
        scanf("%d",arr+i);
    }   
-   
    //copy the data from main array to temporary array and then sort that temporary array
    int arr_sel[n];
    copy_array(arr,arr_sel,n) ;
+   printf("Before sorting the elements are\n");
+   display_arr(arr_sel ,n);
+   
    selection_sort_arr(arr_sel,n);
    printf("The elements of array using selection sort are\n");
    display_arr(arr_sel,n);
