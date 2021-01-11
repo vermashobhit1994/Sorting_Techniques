@@ -2,7 +2,7 @@
 #but must be done in rule line
 CC=gcc
 LFLAGS=-Wall -Werror 
-ARRAYFILES=selection_sort_array.c main_array.c swap_element_arr.c display_arr.c 
+ARRAYFILES=selection_sort_array.c main.c swap_element_arr.c display_arr.c 
 OBJARRFILES=$(ARRAYFILES:%.c=%.o) #substitutional reference
 
 
