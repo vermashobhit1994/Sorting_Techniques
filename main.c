@@ -42,8 +42,13 @@ int main()
    copy_array(arr,arr_insert,n) ;
    insertion_sort_arr(arr_insert ,n);
    printf("The elements of array using insertion sort are\n");
-   
    display_arr(arr_insert,n);
+
+   int arr_merge[n] ;
+   copy_array(arr,arr_merge,n);
+   mergesort_arr(arr_merge,n);
+   printf("The elements of array using merge sort are\n");
+   display_arr(arr_merge,n);
 
 
    
