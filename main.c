@@ -38,6 +38,13 @@ int main()
    printf("The elements of array using bubble sort are\n");
    display_arr(arr_bubble,n);
 
+   int arr_insert[n];
+   copy_array(arr,arr_insert,n) ;
+   insertion_sort_arr(arr_insert ,n);
+   printf("The elements of array using insertion sort are\n");
+   
+   display_arr(arr_insert,n);
+
 
    
    
