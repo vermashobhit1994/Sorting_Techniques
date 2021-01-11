@@ -4,13 +4,13 @@
 
 //e.g 8,1,4,6,7,9,3,2,3,1
 
+#ifndef __SELSORT__
+#define __SELSORT__
+#include "header_array.h"
 static void create_heap(int *,int);
 static int delete_heap(int*,int*);
-
-void display_arr(int *arr,int n);
-void adjust_elements(int *arr,int root_index,int n);
-void swap_arr(int *,int*);
-int printf(const char *, ...);
+static void adjust_elements(int *arr,int root_index,int n);
+#endif
 
 
 void heapsort_arr(int *arr,int n)
