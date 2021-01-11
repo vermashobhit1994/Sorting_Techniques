@@ -51,6 +51,13 @@ int main()
    display_arr(arr_merge,n);
 
 
+   int arr_quick[n];
+   copy_array(arr,arr_quick,n) ;
+   quicksort_arr(arr_quick,n);
+   printf("The elements of array using quick sort are\n");
+   display_arr(arr_quick,n);
+
+
    
    
 
